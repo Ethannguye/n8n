@@ -1,0 +1,22 @@
+{
+  "upload_post_video": [
+    "youtube", "tiktok", "instagram", "facebook", "x", "threads",
+    "linkedin", "pinterest", "bluesky", "mastodon", "telegram",
+    "discord", "wordpress", "google_business"
+  ],
+  "unavailable_upload_post": ["reddit"],
+  "additional_postiz_candidates": [
+    "reddit", "slack", "medium", "devto", "hashnode", "twitch",
+    "kick", "tumblr", "nostr", "farcaster", "vk", "lemmy", "mewe",
+    "dribbble", "listmonk", "skool", "whop", "moltbook"
+  ],
+  "upstreams": [
+    {"repo": "harry0703/MoneyPrinterTurbo", "role": "Full AI video generation", "license": "MIT", "status": "render adapter available when CLI installed"},
+    {"repo": "tashfeenahmed/freellmapi", "role": "OpenAI-compatible multi-provider gateway", "license": "MIT", "status": "optional script API adapter"},
+    {"repo": "gitroomhq/postiz-app", "role": "Social scheduling / numerous networks", "license": "AGPL-3.0", "status": "evaluated, not bundled"},
+    {"repo": "getopenpost/openpost", "role": "Self-host social scheduling", "license": "AGPL-3.0", "status": "evaluated, not bundled"},
+    {"repo": "FerdiKT/postflare", "role": "Cloudflare social publishing", "license": "AGPL-3.0", "status": "evaluated, not bundled"},
+    {"repo": "azeemkafridi/openpublish", "role": "Self-host cross-posting", "license": "AGPL-3.0", "status": "evaluated, not bundled"},
+    {"repo": "apoorvdarshan/crossposter", "role": "Alternative desktop/local cross-posting", "license": "verify upstream", "status": "evaluated, not bundled"}
+  ]
+}

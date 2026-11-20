@@ -1,0 +1,11 @@
+services:
+  social-factory:
+    build: .
+    ports:
+      - "127.0.0.1:8765:8765"
+    env_file:
+      - path: .env
+        required: false
+    volumes:
+      - ./output:/app/output
+    restart: unless-stopped
